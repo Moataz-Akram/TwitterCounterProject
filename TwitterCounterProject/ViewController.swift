@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import TwitterCounterPackage
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func navigateToReusableComponent(_ sender: Any) {
+        let twitterController = TwitterCounterViewController(appURL: "TwitterCounterDemo://")
+        twitterController.title = "Twitter Character Count"
+        navigationController?.pushViewController(twitterController, animated: true)
     }
-
-
+    
 }
 

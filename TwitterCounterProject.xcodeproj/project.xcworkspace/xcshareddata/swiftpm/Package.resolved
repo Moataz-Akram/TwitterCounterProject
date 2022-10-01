@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "reachability.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ashleymills/Reachability.swift",
+      "state" : {
+        "revision" : "c01bbdf2d633cf049ae1ed1a68a2020a8bda32e2",
+        "version" : "5.1.0"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift",
+      "state" : {
+        "revision" : "b4307ba0b6425c0ba4178e138799946c3da594f8",
+        "version" : "6.5.0"
+      }
+    },
+    {
+      "identity" : "twitterapikit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mironal/TwitterAPIKit",
+      "state" : {
+        "revision" : "4c6810d7c0351f9810da1563103303fec82c0e86",
+        "version" : "0.2.2"
+      }
+    },
+    {
+      "identity" : "twittercounterpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Moataz-Akram/TwitterCounterPackage",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5a030833c6718817ee698aa6e12e740e5963f6db"
+      }
+    }
+  ],
+  "version" : 2
+}
